@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>LucerLab Site</title>
+		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
@@ -16,10 +16,9 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>LucerLabs: Photons and data</h1>
-				<p>This personal site will centralize all the research and data science doings and achievements of Luis Cerdán, PhD</p>
-    		</div><!-- /.blurb -->
+    		
+		{{ content }}
+
 		</div><!-- /.container -->
 		<footer>
     		<ul>
